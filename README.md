@@ -38,6 +38,8 @@ function :pash() {
 ```
 
 ## Custom Model Providers (models.json)
+
+```
 {
   "providers": {
     "featherless": {
