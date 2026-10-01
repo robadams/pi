@@ -1,6 +1,6 @@
-## Dumping ground for snippets/configuration related to pi harness (https://pi.dev/)
+# Pi (https://pi.dev/)
 
-# Dockerfile.pi 
+## Dockerfile.pi 
 
 ```
 FROM node:24-bookworm-slim
@@ -14,7 +14,7 @@ WORKDIR /workspace
 ENTRYPOINT ["pi"]
 ```
 
-# Bash Functions (Podman)
+## Bash Functions (Podman)
 
 ```
 # enter pi
@@ -26,7 +26,7 @@ function :pi() {
     pi-sandbox
 }
 
-# enter terminal
+## enter terminal
 function :pash() {
   podman run --rm -it \
     --entrypoint /bin/bash \
@@ -37,7 +37,7 @@ function :pash() {
 }
 ```
 
-# Custom Model Providers (models.json)
+## Custom Model Providers (models.json)
 {
   "providers": {
     "featherless": {
