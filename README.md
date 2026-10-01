@@ -1,4 +1,4 @@
-# Pi (https://pi.dev/)
+See https://pi.dev/
 
 ## Dockerfile.pi 
 
