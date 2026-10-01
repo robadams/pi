@@ -48,9 +48,9 @@ function :pash() {
       "apiKey": "$FEATHERLESS_API_KEY",
       "models": [
         {
-          "id": "<FEATHER_ID>",
-          "name": "<NAME>",
-          "reasoning": true,
+          "id": "<MODEL_ID>", # see https://featherless.ai/models
+          "name": "<USER_NAME>", # User Label
+          "reasoning": true, # Adjust as neccessary
           "input": [
             "text"
           ],
