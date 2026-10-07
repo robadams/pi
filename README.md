@@ -17,6 +17,12 @@ ENTRYPOINT ["pi"]
 ## Bash Functions (Podman)
 
 ```
+
+# rebuild image
+function :build_pi() {
+	podman build --no-cache -t pi-sandbox -f Dockerfile.pi .
+}
+
 # enter pi
 function :pi() {
   podman run --rm -it \
